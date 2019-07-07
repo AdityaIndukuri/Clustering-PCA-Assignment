@@ -1,0 +1,13 @@
+K-Means clustering	Hierarchical clustering
+"Kmeans divides the objects into clusters such that each object is in exactly one cluster, not several. It is a collection of objects which are “similar” between themis a collection of objects which are “similar” between them."	Hierarchical clustering have a tree like structure where two most similar clusters are combined together and continue to combine until all objects are in the same cluster.
+Assumption of K-Means is variable distribution should be spherical	It is best to be used when variable distribution is non-spherical
+"In K-Means we need to know the right number of clusters to look for. So it is necessary to run several parallel analyses with different values of K . When we do this, we get variety of solutions, and more than one model may give insight into data groupings."	k can be derived in hierarchical clustering via a proper inspection of distribution of data in clusters at different levels in the dendrogram.
+It uses less memory	It uses high memory
+It converges faster	It is not as fast as K-Means. So perfomance wise it is bit slow
+K-Means improves iteratively.	Hierarchical clustering get trapped in mistakes made on a previous level.
+"K- Means is non-deterministic in nature, i.e.. after every time you initialize, it will produce different clusters."	Hierarchical clustering is deterministic.
+	
+	
+	
+	
+	
